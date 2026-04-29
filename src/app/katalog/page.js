@@ -4,8 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Katalog() {
-  const WA_NUMBER = "6281234567890"; // Ganti dengan nomor admin
-  
+  const WA_NUMBER = "6281234779772"; // Ganti dengan nomor admin
+
   const products = [
     {
       id: 1,
@@ -93,10 +93,10 @@ export default function Katalog() {
         <div className="container flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 relative overflow-hidden rounded-full">
-              <Image 
-                src="/Logo.jpeg" 
-                alt="SNW JAYA Logo" 
-                fill 
+              <Image
+                src="/Logo.jpeg"
+                alt="SNW JAYA Logo"
+                fill
                 className="object-cover"
               />
             </div>
@@ -117,7 +117,7 @@ export default function Katalog() {
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Katalog Produk</h1>
           <p className="text-gray-400 max-w-2xl">
-            Temukan berbagai kebutuhan elektrikal dan smart home berkualitas tinggi. 
+            Temukan berbagai kebutuhan elektrikal dan smart home berkualitas tinggi.
             Semua produk kami dijamin keasliannya dan telah melalui QC ketat.
           </p>
         </div>
@@ -133,11 +133,11 @@ export default function Katalog() {
                 <div className="absolute inset-0 flex items-center justify-center text-gray-600">
                   <span className="text-4xl">📦</span>
                 </div>
-                <Image 
-                  src={product.image} 
-                  alt={product.name} 
-                  fill 
-                  className="object-cover transition-transform hover:scale-110 duration-500" 
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  className="object-cover transition-transform hover:scale-110 duration-500"
                   onError={(e) => {
                     // Fallback handled by parent div's icon
                     e.target.style.display = 'none';

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   const WA_NUMBER = "6281234567890"; // Ganti dengan nomor admin
-  
+
   const products = [
     {
       id: 1,
@@ -46,10 +46,10 @@ export default function Home() {
         <div className="container flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 relative overflow-hidden rounded-full">
-              <Image 
-                src="/Logo.jpeg" 
-                alt="SNW JAYA Logo" 
-                fill 
+              <Image
+                src="/Logo.jpeg"
+                alt="SNW JAYA Logo"
+                fill
                 className="object-cover"
               />
             </div>
@@ -68,10 +68,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image 
-            src="/hero.png" 
-            alt="Hero Background" 
-            fill 
+          <Image
+            src="/hero.png"
+            alt="Hero Background"
+            fill
             className="object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
@@ -82,7 +82,7 @@ export default function Home() {
             <span className="text-white">Modern & Terpercaya</span>
           </h1>
           <p className="text-xl text-gray-400 mb-8 max-w-lg">
-            Sediakan kebutuhan elektrikal berkualitas tinggi untuk hunian dan industri Anda. 
+            Sediakan kebutuhan elektrikal berkualitas tinggi untuk hunian dan industri Anda.
             Belanja aman, cepat, dan terpercaya hanya di SNW JAYA.
           </p>
           <div className="flex gap-4">
@@ -206,7 +206,7 @@ export default function Home() {
               <p className="text-gray-400 mb-4">Hubungi Admin Kami:</p>
               <div className="flex flex-wrap justify-center md:justify-end gap-4">
                 <a href={getWAUrl("Umum", "")} className="btn btn-primary">
-                  <span>📱</span> WhatsApp: 0812-3456-7890
+                  <span>📱</span> WhatsApp: 0812-3477-9772
                 </a>
                 <a href="mailto:admin@snwjaya.com" className="btn btn-outline">
                   <span>✉️</span> Email Kami
