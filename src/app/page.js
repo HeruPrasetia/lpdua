@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
-  const WA_NUMBER = "6281234567890"; // Ganti dengan nomor admin
+  const WA_NUMBER = "6281234779772"; // Ganti dengan nomor admin
 
   const products = [
     {
